@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const Booking = require('../models/Booking');
-const Movie = require('../models/Movie');
-const User = require('../models/User');
+const Booking = require('../models/booking');
+const Movie = require('../models/movie');
+const User = require('../models/user');
 const { protect } = require('../middleware/auth');
 
 // POST /api/bookings - Create booking
