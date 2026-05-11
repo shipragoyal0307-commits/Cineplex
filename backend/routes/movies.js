@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Movie = require('../models/Movie');
+const Movie = require('../models/movie');
 const { protect } = require('../middleware/auth');
 
 // Seed sample movies if DB is empty

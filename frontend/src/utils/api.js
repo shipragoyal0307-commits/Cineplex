@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API = 'https://cineplex-api-njbq.onrender.com/api';
 
 const getToken = () => localStorage.getItem('cineplex_token');
 

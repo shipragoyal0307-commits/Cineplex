@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-const API = 'http://localhost:5000';
+const API = 'https://cineplex-api-njbq.onrender.com';
 const AuthContext = createContext(null);
 
 export const useAuth = () => {
