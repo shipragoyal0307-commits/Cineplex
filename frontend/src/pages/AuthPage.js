@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API = 'http://localhost:5000';
+const API = 'https://cineplex-api-njbq.onrender.com';
 
 const passwordRules = [
   { label: 'At least 8 characters', test: (p) => p.length >= 8 },
